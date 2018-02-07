@@ -6,6 +6,7 @@ using System.Text;
 
 namespace ImageGallery.Core.Model
 {
+    [Table("Images")]
     public class ImageModel
     {
         [Key]

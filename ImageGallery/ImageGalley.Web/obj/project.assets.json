@@ -4760,6 +4760,9 @@
       "ImageGalley.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "ImageGallery.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ImageGalley.Data.dll": {}
         },
