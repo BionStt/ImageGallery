@@ -7,3 +7,11 @@ C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Data\obj\Debug\netcorea
 C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Data\obj\Debug\netcoreapp2.0\ImageGalley.Data.AssemblyInfo.cs
 C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Data\obj\Debug\netcoreapp2.0\ImageGalley.Data.dll
 C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Data\obj\Debug\netcoreapp2.0\ImageGalley.Data.pdb
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Data\bin\Debug\netcoreapp2.0\ImageGallery.Core.dll
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Data\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Data\bin\Debug\netcoreapp2.0\ImageGallery.Core.pdb
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Data\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.xml
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Data\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Data\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Data\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.Relational.xml
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Data\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.SqlServer.xml

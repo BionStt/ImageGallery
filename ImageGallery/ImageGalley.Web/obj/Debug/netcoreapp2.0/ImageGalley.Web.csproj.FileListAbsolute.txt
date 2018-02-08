@@ -1,0 +1,15 @@
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\bin\Debug\netcoreapp2.0\ImageGalley.Web.deps.json
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\bin\Debug\netcoreapp2.0\ImageGalley.Web.runtimeconfig.json
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\bin\Debug\netcoreapp2.0\ImageGalley.Web.runtimeconfig.dev.json
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\bin\Debug\netcoreapp2.0\ImageGalley.Web.dll
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\bin\Debug\netcoreapp2.0\ImageGalley.Web.pdb
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\bin\Debug\netcoreapp2.0\ImageGallery.Core.dll
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\bin\Debug\netcoreapp2.0\ImageGalley.Data.dll
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\bin\Debug\netcoreapp2.0\ImageGallery.Core.pdb
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\bin\Debug\netcoreapp2.0\ImageGalley.Data.pdb
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\obj\Debug\netcoreapp2.0\ImageGalley.Web.csprojResolveAssemblyReference.cache
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\obj\Debug\netcoreapp2.0\ImageGalley.Web.csproj.CoreCompileInputs.cache
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\obj\Debug\netcoreapp2.0\ImageGalley.Web.AssemblyInfoInputs.cache
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\obj\Debug\netcoreapp2.0\ImageGalley.Web.AssemblyInfo.cs
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\obj\Debug\netcoreapp2.0\ImageGalley.Web.dll
+C:\dev\ImageGalleryForEntireApp\ImageGallery\ImageGalley.Web\obj\Debug\netcoreapp2.0\ImageGalley.Web.pdb
