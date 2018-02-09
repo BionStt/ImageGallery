@@ -1,0 +1,19 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "devDependencies": {
+    "adminlte": "^2.4.1",
+    "bootstrap": "^3.3.7",
+    "ckeditor": "^4.6.2",
+    "datatables": "^1.10.13",
+    "datatables-bootstrap": "0.0.1",
+    "fontawesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "icheck": "^1.0.2",
+    "jquery": "^3.1.1",
+    "jquery-validation": "^1.16.0",
+    "jquery-validation-unobtrusive": "^3.2.6",
+    "morris.js": "^0.5.0",
+    "raphael": "^2.2.7"
+  }
+}
