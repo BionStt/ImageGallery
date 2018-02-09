@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ImageGalley.Web.Areas.Admin.Controllers
 {
-    public class ImageManagerController : Controller
+    public class ImageGalleryController : Controller
     {
         public IActionResult Index()
         {

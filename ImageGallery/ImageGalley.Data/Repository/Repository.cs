@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 using ImageGallery.Core.Interface.Base;
 using ImageGalley.Data.AppDbContext;
 using Microsoft.EntityFrameworkCore;
 
-namespace ImageGalley.Data.Repository.Base
+namespace ImageGalley.Data.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {

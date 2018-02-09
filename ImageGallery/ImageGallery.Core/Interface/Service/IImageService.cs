@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using ImageGallery.Core.Model;
 
-namespace ImageGallery.Core.Interface
+namespace ImageGallery.Core.Interface.Service
 {
-    public interface IImageRepository
+    public interface IImageService
     {
         IList<ImageModel> GetAllImages();
         ImageModel GetImageById(Guid id);
