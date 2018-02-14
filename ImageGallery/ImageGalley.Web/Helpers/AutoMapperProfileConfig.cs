@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using ImageGallery.Core.Model;
+using ImageGallery.Core.ViewModel;
 using ImageGalley.Web.Controllers;
 
 namespace ImageGalley.Web.Helpers
