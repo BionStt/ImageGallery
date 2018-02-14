@@ -19,8 +19,4 @@
     <ProjectReference Include="..\ImageGalley.Data\ImageGalley.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Data\" />
-  </ItemGroup>
-
 </Project>
