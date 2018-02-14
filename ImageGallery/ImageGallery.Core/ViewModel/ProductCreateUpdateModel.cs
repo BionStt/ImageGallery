@@ -78,7 +78,7 @@ namespace ImageGallery.Core.ViewModel
         [Display(Name = "Meta Tag Description")]
         public string MetaDescription { get; set; }
 
-        public List<ImageModel> Images { get; set; }
+        public List<ImageViewModel> Images { get; set; }
         public List<string> ImageIds { get; set; }
         public List<string> ImageSortOrder { get; set; }
         public bool Published { get; set; }

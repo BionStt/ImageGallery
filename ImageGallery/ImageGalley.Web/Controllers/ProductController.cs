@@ -49,7 +49,7 @@ namespace ImageGalley.Web.Controllers
 
         public IActionResult Create()
         {
-            return View();
+            return View(new ProductCreateOrUpdateModel());
         }
     }
 }

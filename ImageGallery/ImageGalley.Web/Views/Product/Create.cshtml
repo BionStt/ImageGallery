@@ -30,26 +30,23 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane" id="infoContent">
-                        @*@await Html.PartialAsync("_CreateOrUpdate_Info", Model)*@
+                        @await Html.PartialAsync("_CreateOrUpdate_Info", Model)
                     </div>
                     <div role="tabpanel" class="tab-pane" id="dataContent">
-                        @*@await Html.PartialAsync("_CreateOrUpdate_Data", Model)*@
+                        @await Html.PartialAsync("_CreateOrUpdate_Data", Model)
                     </div>
                     <div role="tabpanel" class="tab-pane" id="seoContent">
-                        @*@await Html.PartialAsync("_CreateOrUpdate_Seo", Model)*@
+                        @await Html.PartialAsync("_CreateOrUpdate_Seo", Model)
                     </div>
                     <div role="tabpanel" class="tab-pane" id="imageContent">
-                        @*@await Html.PartialAsync("_CreateOrUpdate_Images", Model)*@
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="specificationContent">
-                        @*@await Html.PartialAsync("_CreateOrUpdate_Specification", Model)*@
+                        @await Html.PartialAsync("_CreateOrUpdate_Images", Model)
                     </div>
                 </div>
             </div> <!-- nav tabs custom end -->
         </form>
     </div> <!-- col md 12 end -->
 </div> <!-- row end -->
-@*@await Html.PartialAsync("_ImageManagerModal")*@
+@await Html.PartialAsync("_ImageManagerModal")
 @section Scripts {
     <script>
         // run validator on all tabs
