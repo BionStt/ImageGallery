@@ -97,7 +97,7 @@
         $('#imgWrapper').append("<div>Loading...</div>");
         $.ajax({
             type: "GET",
-            url: '/Admin/ImageManager/GetAllImages',
+            url: '/Image/GetAllImages',
             dataType: "Json",
             success: function (data) {
                 $('#imgWrapper').empty();
