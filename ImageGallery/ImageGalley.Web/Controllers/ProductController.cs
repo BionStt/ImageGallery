@@ -51,5 +51,18 @@ namespace ImageGalley.Web.Controllers
         {
             return View(new ProductCreateOrUpdateModel());
         }
+
+        // POST: /Product/Delete
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(List<Guid> ids)
+        {
+            if (ids == null || ids.Count == 0)
+                return RedirectToAction("Index");
+
+            _productService.DeleteProducts(ids);
+            return RedirectToAction("Index");
+        }
+
     }
 }
