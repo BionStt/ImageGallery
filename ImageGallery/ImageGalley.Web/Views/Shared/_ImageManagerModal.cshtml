@@ -134,7 +134,7 @@
 
         // ajax post
         $.ajax({
-            url: '/Admin/ImageManager/SearchImage',
+            url: '/Image/SearchImage',
             type: "POST",
             data: $('#searchImageForm').serialize(),
             success: function (data) {
@@ -214,7 +214,7 @@
 
         if (imageIds.length > 0) {
             $.ajax({
-                url: '/Admin/ImageManager/DeleteImages',
+                url: '/Image/DeleteImages',
                 type: "POST",
                 data: { Ids: imageIds, __RequestVerificationToken: token },
                 success: function (result) {

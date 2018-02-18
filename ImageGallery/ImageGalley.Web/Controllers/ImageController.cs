@@ -96,5 +96,63 @@ namespace ImageGalley.Web.Controllers
 
             return Json("error");
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteImages(List<string> Ids)
+        {
+            try
+            {
+                var imageToDelete = new List<Guid>();
+
+                foreach (var id in Ids)
+                {
+                    var image = _imageService.GetImageById(Guid.Parse(id));
+
+                    if (image != null)
+                    {
+                        // delete image from local disk
+                        var dir = Path.Combine(_hostingEnvironment.WebRootPath, "images/app");
+                        var imagePath = Path.Combine(dir, image.FileName);
+
+                        if (System.IO.File.Exists(imagePath))
+                            System.IO.File.Delete(imagePath);
+
+                        imageToDelete.Add(image.Id);
+                    }
+                }
+
+                // delete image from database
+                _imageService.DeleteImages(imageToDelete);
+
+                return new NoContentResult();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        // POST: /ImageManager/SearchImage
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult SearchImage(string keyword)
+        {
+            if (string.IsNullOrEmpty(keyword))
+                return new NoContentResult();
+
+            var imageList = _imageService.SearchImages(keyword);
+            var model = new List<ImageModel>();
+            foreach (var image in imageList)
+            {
+                var imageModel = new ImageModel
+                {
+                    Id = image.Id,
+                    FileName = image.FileName
+                };
+                model.Add(imageModel);
+            }
+            return Json(model);
+        }
     }
 }
