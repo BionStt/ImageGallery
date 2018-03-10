@@ -60,26 +60,26 @@ namespace ImageGalley.Web.Controllers
 
             if (ModelState.IsValid)
             {
-              
-               
-                    // generate new id for model
-                    model.Id = Guid.NewGuid();
 
-                    // map view model to entity
-                    var productEntity = _mapper.Map<ProductCreateOrUpdateModel, ProductModel>(model);
-                    productEntity.DateAdded = DateTime.Now;
-                    productEntity.DateModified = DateTime.Now;
 
-                    // save to database
-                    _productService.InsertProduct(productEntity);
-                    
-                    SaveImageMappings(model);
-                   
+                // generate new id for model
+                model.Id = Guid.NewGuid();
 
-                    if (continueEditing)
-                        return RedirectToAction("Edit", new { id = productEntity.Id, ActiveTab = model.ActiveTab });
+                // map view model to entity
+                var productEntity = _mapper.Map<ProductCreateOrUpdateModel, ProductModel>(model);
+                productEntity.DateAdded = DateTime.Now;
+                productEntity.DateModified = DateTime.Now;
 
-                    return RedirectToAction("Index");
+                // save to database
+                _productService.InsertProduct(productEntity);
+
+                SaveImageMappings(model);
+
+
+                if (continueEditing)
+                    return RedirectToAction("Edit", new { id = productEntity.Id, ActiveTab = model.ActiveTab });
+
+                return RedirectToAction("Index");
             }
 
             // something went wrong, redisplay form
@@ -129,4 +129,5 @@ namespace ImageGalley.Web.Controllers
             }
 
         }
+    }
 }
